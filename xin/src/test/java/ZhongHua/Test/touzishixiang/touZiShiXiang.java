@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 //import static core.Util.click;
 public class touZiShiXiang {
     private static final Logger logger = LoggerFactory.getLogger(touZiShiXiang.class.getName());
-    WebDriver wr;
+//    WebDriver wr;
     WebDriver webDriver;
     int pageLoadTime = 15;
 
@@ -29,7 +29,7 @@ public class touZiShiXiang {
     public void chushi() throws Exception {
 //封装浏览器启动
         Start startt = new Start();
-        webDriver = startt.startChrome(Science.URL_UAT5, "ganyingying", wr);
+        webDriver = startt.startChrome(Science.URL_UAT5, "ganyingying");
 //        URL url = new URL("http://192.168.57.131:6666/wd/hub");
 //        wr = new RemoteWebDriver(url, DesiredCapabilities.internetExplorer());
 //        wr.manage().timeouts().pageLoadTimeout(pageLoadTime,TimeUnit.SECONDS);
