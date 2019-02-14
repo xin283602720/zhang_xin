@@ -22,7 +22,6 @@ import java.util.concurrent.TimeUnit;
 public class touZiShiXiang {
     private static final Logger logger = LoggerFactory.getLogger(touZiShiXiang.class.getName());
     WebDriver wr;
-    String testing;
     WebDriver webDriver;
     int pageLoadTime = 15;
 
